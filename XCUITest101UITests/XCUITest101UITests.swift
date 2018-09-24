@@ -23,7 +23,7 @@ class XCUITest101UITests: XCTestCase {
     func testRecorded() {
         let app = XCUIApplication()
         app.otherElements.containing(.image, identifier:"wall1").element.tap()
-        app/*@START_MENU_TOKEN@*/.buttons["enter"]/*[[".buttons[\"ENTER\"]",".buttons[\"enter\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.buttons["enter"].tap()
         app.staticTexts["Welcome to XCUITest"].tap()
     }
     
