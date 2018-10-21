@@ -13,11 +13,11 @@ extension XCUITestBase {
     }
     func whenITapOnEnter() {
         XCTContext.runActivity(named: "When I tap on the enter button") { _ in
-            XCUIApplication().buttons["enter"].tap()
+            WelcomeScreen.enterButton.element.tap()
         }
     }
     func thenIShouldSeeWelcomeMessage() {
         XCTContext.runActivity(named: "Then I should see Welcome message") { _ in
-            XCTAssert(app.staticTexts["Welcome to XCUITest"].exists)        }
+            XCTAssertTrue(WelcomeScreen.welcomeText.element.exists)     }
     }
 }

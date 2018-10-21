@@ -14,6 +14,7 @@
 		9BB9D54F21598A8900B95B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB9D54E21598A8900B95B51 /* Assets.xcassets */; };
 		9BB9D55221598A8900B95B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB9D55021598A8900B95B51 /* LaunchScreen.storyboard */; };
 		9BB9D56021598AF700B95B51 /* XCUITest101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9D55F21598AF700B95B51 /* XCUITest101UITests.swift */; };
+		9BD43F34217C53E9004F19AD /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD43F33217C53E9004F19AD /* WelcomeScreen.swift */; };
 		9BDA7944216A892200F0D333 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA7943216A892200F0D333 /* XCUITestBase.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		9BB9D55D21598AF600B95B51 /* XCUITest101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITest101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB9D55F21598AF700B95B51 /* XCUITest101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest101UITests.swift; sourceTree = "<group>"; };
 		9BB9D56121598AF700B95B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD43F33217C53E9004F19AD /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		9BDA7943216A892200F0D333 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				9BB9D56121598AF700B95B51 /* Info.plist */,
 				9BDA7943216A892200F0D333 /* XCUITestBase.swift */,
 				9B0159522171F70C003E73AB /* WelcomeStepDefinitions.swift */,
+				9BD43F33217C53E9004F19AD /* WelcomeScreen.swift */,
 			);
 			path = XCUITest101UITests;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				9BB9D56021598AF700B95B51 /* XCUITest101UITests.swift in Sources */,
 				9B0159532171F70C003E73AB /* WelcomeStepDefinitions.swift in Sources */,
+				9BD43F34217C53E9004F19AD /* WelcomeScreen.swift in Sources */,
 				9BDA7944216A892200F0D333 /* XCUITestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
