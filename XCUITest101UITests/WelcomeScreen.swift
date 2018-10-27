@@ -8,7 +8,11 @@ enum WelcomeScreen: String {
     var element: XCUIElement {
         switch self {
         case .enterButton:
-            return XCUIApplication().buttons[self.rawValue]
+            if UIDevice.current.userInterfaceIdiom == .pad {
+                return XCUIApplication().tabBars["iPadTabBar"].buttons[self.rawValue]
+            } else {
+                return XCUIApplication().buttons[self.rawValue]
+            }
         case .welcomeText:
             return XCUIApplication().staticTexts[self.rawValue]
         }
