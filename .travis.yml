@@ -1,0 +1,13 @@
+language: objective-c
+osx_image: xcode10
+branches:
+  only:
+  - CI
+  - master
+
+before_install:
+  - gem install fastlane --no-ri --no-rdoc --no-document
+
+install: true
+script:
+  - fastlane scan -s XCUITest101
